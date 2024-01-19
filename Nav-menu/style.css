@@ -1,0 +1,168 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+nav{
+    background-color:yellow;
+    box-shadow: 0 0 20px rgb(197, 194, 23);
+    height:70px ;
+    
+}
+a{
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+a:hover{
+    box-shadow: 0 0 20px rgb(197, 194, 23);
+}
+.links{
+    background-color: yellow;
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 400px;
+    height: 5px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+}
+#recipes{
+    margin-top: 0px;
+    background-color: yellow;
+    margin-left: 0px;
+    padding-left: 0%;
+    left: 0;
+}
+.logo{
+    height: 5px;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: yellow;
+}
+/* h3{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 400px;
+    color: black;
+    font-size: 60px;
+}
+p{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 400px;
+    height: 5rem ;
+    font-size: large;
+}
+.Subscribe{
+    background-color: yellow;
+    border-radius: 5rem;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+img{
+    margin-right: 70px;
+    margin-left: 400px;
+    margin-top: -180px;
+    image-resolution:inherit;
+    border-radius: 100%;
+    background-size:cover;
+    width: 40%;
+}
+
+.blocks{
+    display: flex;
+    flex-direction: row;
+} */
+/* section{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+} */
+.blocks{
+    display: flex;
+    gap: 40px;
+}
+.paragraph{
+    
+    width: 500px;
+}
+ .image{
+    
+    width: 300px;
+}
+#image{
+    border-radius: 100%;
+    background-size:cover;
+    image-resolution:inherit;
+    width: 400px;
+}
+.subscribe{
+    background-color: yellow;
+    border-radius: 5rem;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+footer{
+    margin-left: 10px;
+    margin-left: 10px;
+    background-color: #333;
+    margin-top: 100px;
+    padding-top: 30px;
+    width: 100%;
+    height: 50rem;
+   
+}
+.foot{
+    display:grid;
+    grid-template-rows:auto auto ;
+    background-color: #333;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows */
+}
+.foot p{
+    background-color: #333;
+    color: aliceblue;
+    
+}
+footer h1{
+    background-color: #333;
+    text-align: center;
+    margin-left: 35%;
+    color: aliceblue;
+}
+.location{
+    background-color: #333;
+    display: flex;
+}
+.call{
+    background-color: #333;
+    display: flex;
+}
+.mail{
+    background-color: #333;
+    display: flex;
+}
+.insta{
+    background-color: #333;
+    display: flex;
+}
